@@ -11,12 +11,13 @@ Sixpad is a simple macropad with six switches, rotary encoder and a OLED display
 - VIA/VIAL support (not finished)
 
 ## PCB
-- made using KiCAD
+- designed using KiCAD
 
 ![](images/schematic.png)
 ![](images/PCB.png)
 
 ## Case
+- designed using openSCAD
 The case is only one part, as the PCB will be put in place through the bottom hole and held there by 4x M3 nuts and screws.
 
 ![](images/case.png)
