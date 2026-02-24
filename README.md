@@ -14,6 +14,7 @@ Sixpad is a simple macropad with six switches, rotary encoder and a OLED display
 - designed using KiCAD
 
 ![](images/schematic.png)
+
 ![](images/PCB.png)
 
 ## Case
