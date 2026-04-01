@@ -3,7 +3,7 @@
   "keyboard_name": "sixpad",
   "maintainer": "Zintrall",
   "bootloader": "rp2040",
-  "diode_direction": "COL2ROW",
+  "diode_direction": "ROW2COL",
   "features": {
     "bootmagic": true,
     "command": false,
@@ -12,9 +12,18 @@
     "mousekey": true,
     "nkro": true
   },
+  "encoder": {
+    "enabled": true,
+    "rotary": [
+      {
+        "pin_a": "GP27",
+        "pin_b": "GP28"
+      }
+    ]
+  },
   "matrix_pins": {
-    "cols": ["GP26", "GP27", "GP28"],
-    "rows": ["GP0", "GP29"]
+    "cols": ["GP1", "GP29", "GP0"],
+    "rows": ["GP2", "GP4"]
   },
   "processor": "RP2040",
   "url": "",
