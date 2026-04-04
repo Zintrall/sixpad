@@ -1,14 +1,16 @@
 # sixpad
 Sixpad is a simple macropad with six switches, rotary encoder and a OLED display
 
-![](images/model.png)
+![](images/sixpad.png)
+
+![](images/top.png)
 
 ## Features
 - 128x32 OLED Display
 - EC11 Rotary encoder
 - 6 Keys
 - RP2040
-- VIA/VIAL support (not finished)
+- VIAL support
 
 ## PCB
 - designed using KiCAD
@@ -25,9 +27,9 @@ The case is only one part, as the PCB will be put in place through the bottom ho
 
 ## Firmware
 - uses QMK firmware
-- 4 keys are currently set for numpad keys (1-6)
-- OLED display says hello world
-- in future will have multiple layers which will be switched using rotary encoder and shown on the OLED display
+- supports vial (even rotary encoder)
+- OLED display displays what layer you are on
+
 
 ## BOM
 - 6x Cherry MX Switches
