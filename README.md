@@ -1,9 +1,9 @@
 # sixpad
 Sixpad is a simple macropad with six switches, rotary encoder and a OLED display
 
-![](images/sixpad.png)
+![](images/sixpad.jpg)
 
-![](images/top.png)
+![](images/top.jpg)
 
 ## Features
 - 128x32 OLED Display
