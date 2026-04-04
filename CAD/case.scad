@@ -11,7 +11,7 @@ keycap_length = 19;
 switches_box_length = 14.2;
 encoder_box_length = 12.2;
 display_box = [22.6,5.8,20];
-usb_c = [11,6.5,case_extra_width];
+usb_c = [11,16.5,case_extra_width];
 
 
 difference() {
@@ -41,7 +41,7 @@ difference() {
     }
     }
     color("red"){
-    translate([board_length/2-29.5-board_extra_size,-board_width/2,board_height/2+(case_extra_width/2)-(6.6+3.5)]){
+    translate([board_length/2-29.5-board_extra_size,-board_width/2,board_height/2+(case_extra_width/2)-20.1]){
     rotate([90,0,180]){
     translate([-1,-1.5,-case_extra_width/2]){
     SmoothXYCube(usb_c,2){}}}}}
